@@ -1,0 +1,51 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.has-drop-cap::first-letter {
+    initial-letter: 3;
+    color: gold;
+    margin-right: 10px;
+
+}
+
+.site-heading{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.by-line{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.by-line-link{
+    color: cadetblue;
+}
+
+.blog-image{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.caption{
+    background-color: #f5f4f4;
+    margin:0px;
+    margin-top: -4px;
+    border-top: 5px solid #ffbd00;
+    padding: 15px;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 40 px
+}
+
+.site-wrapper{
+    max-width: 700px;
+    margin: 0 auto;
+}
